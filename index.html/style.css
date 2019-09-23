@@ -1,0 +1,164 @@
+@import url("https://use.typekit.net/nvw8sqq.css");
+@import url("https://use.typekit.net/nvw8sqq.css");
+@import url("https://use.typekit.net/nvw8sqq.css");
+
+body{
+    background-color: #5F6C77;
+    padding: 0;
+    margin: 0;
+}
+.top{
+    background-color:  #5F6C77;
+    color: white;
+    font-size: 3.75em;
+    font-family: ltc-bodoni-175, serif;
+    font-weight: 400;
+    font-style: italic;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 50vh;
+    width: 100vw;
+    text-align: center;
+    border-bottom-style: double;
+    border-width: 10px;
+    border-color: white;
+}
+.middle{
+    background-color: #5F6C77;
+    position: fixed;
+    height: 50vh;
+    bottom: 0;
+    left: 29.7vw;
+    right: 29.6vw;
+    text-align: center;
+    color: rgb(213, 188, 0);
+    font-size: 11pt;
+    font-family: fairwater-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    line-height: 10pt;
+}
+.poem{
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1.5fr 2fr 1.5fr;
+    margin-top: 50vh;
+}
+.stanza1{
+    background-color: #FFE796;
+    text-align: left;
+    border-style: double;
+    border-width: 10px;
+    border-color: white;
+    padding-left: 10px;
+} 
+.divider{
+    background-color: #5F6C77;
+}
+.stanza3{
+
+    background-color: #FFE796;
+    text-align: right;
+    border-style: solid;
+    border-width: 10px;
+    border-style: double;
+    border-color: white;
+    border-width: 10px;
+    padding-right: 10px;
+}
+p{
+    font-size: 14pt;
+    font-style:normal;
+    font-weight:300;
+    line-height: 10pt;
+    font-kerning: auto;
+    font-family: rift-soft, sans-serif;
+}
+
+/* ----------- SMART PHONES ----------- */
+
+@media only screen and (max-width: 800px) {
+body{
+    background-color: #5F6C77;
+        padding: 0;
+        margin: 0;
+
+}
+.top{
+    background-color: #5F6C77;
+    width: 196vw;
+    font-size: 30pt;
+    height: 100px;
+    text-align: center;
+    margin-left: 0px;
+    border-right-style: double;
+    position: relative;
+    border: none;
+}
+.middle{
+    width: 196vw;
+    height: 120px;
+    margin-top: 0px;
+    position: relative;
+    left: 0;
+    text-align: center;
+    margin-left: 10px;
+}
+.poem{
+    margin-top: 0px;
+    display: grid;
+    grid-template-columns: 96vw 4vw 96vw;
+    padding: 0px;
+}
+.stanza1{
+    margin-top: 0;
+    padding-left: 10px;
+    text-align: center;
+}
+.stanza3{
+    right: 0px;
+    text-align: center;
+}
+p{
+    font-size: 13pt;
+}
+}
+   
+/*---tablet---*/
+@media only screen and (min-width: 800px) and (max-width: 1200px) {
+.top{
+    background-color:  #5F6C77;
+    color: white;
+    font-size: 2em;
+    font-family: ltc-bodoni-175, serif;
+    font-weight: 400;
+    font-style: italic;
+    position: fixed;
+    top:0;
+    left:0;
+    height: 25vh;
+    width: 100vw;
+    text-align: center;
+}
+.middle{
+    width: 100vw;
+    height: 120px;
+    margin-top: 125px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    text-align: center;
+    border-bottom-style: double;
+    border-width: 50px;
+    border-color: whitesmoke;  
+}
+.poem{
+    margin-top: 295px;
+    display: grid;
+    grid-template-columns: 48vw 3vw 48vw;
+    grid-template-rows: 600px;
+    padding: 0px;
+}
+}
