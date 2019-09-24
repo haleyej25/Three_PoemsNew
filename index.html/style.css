@@ -105,10 +105,9 @@ p{
     margin-right: 0px;
     display: grid;
     grid-template-columns: 96vw 6vw 96vw;
-    padding: 0px;
+
 }
 .stanza1{
-    padding-left: 10px;
     text-align: center;
 }
 .stanza3{
@@ -154,7 +153,6 @@ p{
     margin-top: 295px;
     display: grid;
     grid-template-columns: 48vw 4vw 48vw;
-    padding: 0px;
 }
 p{
     line-height: 26pt;
