@@ -80,16 +80,11 @@ p{
 /* ----------- SMART PHONES ----------- */
 
 @media only screen and (max-width: 800px) {
-body{
-    background-color: #5F6C77;
-        padding: 0;
-        margin: 0;
 
-}
 .top{
     background-color: #5F6C77;
     width: 196vw;
-    font-size: 30pt;
+    font-size: 24pt;
     height: 100px;
     text-align: center;
     margin-left: 0px;
@@ -100,7 +95,6 @@ body{
 .middle{
     width: 196vw;
     height: 120px;
-    margin-top: 0px;
     position: relative;
     left: 0;
     text-align: center;
@@ -108,21 +102,22 @@ body{
 }
 .poem{
     margin-top: 0px;
+    margin-right: 0px;
     display: grid;
-    grid-template-columns: 96vw 4vw 96vw;
+    grid-template-columns: 96vw 6vw 96vw;
     padding: 0px;
 }
 .stanza1{
-    margin-top: 0;
     padding-left: 10px;
     text-align: center;
 }
 .stanza3{
-    right: 0px;
     text-align: center;
 }
 p{
-    font-size: 13pt;
+    font-size: 20pt;
+    line-height: 24pt;
+
 }
 }
    
@@ -131,7 +126,7 @@ p{
 .top{
     background-color:  #5F6C77;
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     font-family: ltc-bodoni-175, serif;
     font-weight: 400;
     font-style: italic;
@@ -155,10 +150,13 @@ p{
     border-color: whitesmoke;  
 }
 .poem{
+    height: 75vw;
     margin-top: 295px;
     display: grid;
-    grid-template-columns: 48vw 3vw 48vw;
-    grid-template-rows: 600px;
+    grid-template-columns: 48vw 4vw 48vw;
     padding: 0px;
+}
+p{
+    line-height: 26pt;
 }
 }
