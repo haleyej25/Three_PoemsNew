@@ -48,7 +48,7 @@ body{
 }
 .stanza1{
     background-color: #FFE796;
-    text-align: left;
+    text-align: center;
     border-style: double;
     border-width: 10px;
     border-color: white;
@@ -60,7 +60,7 @@ body{
 .stanza3{
 
     background-color: #FFE796;
-    text-align: right;
+    text-align: center;
     border-style: solid;
     border-width: 10px;
     border-style: double;
